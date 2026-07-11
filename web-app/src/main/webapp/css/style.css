@@ -1,0 +1,122 @@
+/* Prepaid Charging - User Management Stylesheet */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #2c3e50;
+    padding: 30px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    padding: 30px;
+}
+
+h1 {
+    color: #1A56DB;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e0e6ed;
+    padding-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #1A56DB;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #1646b3;
+}
+
+.btn-edit {
+    background-color: #f0ad4e;
+    color: #ffffff;
+}
+
+.btn-edit:hover {
+    background-color: #ec971f;
+}
+
+.btn-delete {
+    background-color: #d9534f;
+    color: #ffffff;
+}
+
+.btn-delete:hover {
+    background-color: #c9302c;
+}
+
+.toolbar {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e0e6ed;
+}
+
+th {
+    background-color: #1A56DB;
+    color: #ffffff;
+}
+
+tr:hover {
+    background-color: #f5f8ff;
+}
+
+.actions a {
+    margin-right: 8px;
+}
+
+form.user-form {
+    max-width: 400px;
+    margin-top: 10px;
+}
+
+form.user-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+form.user-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccd3dc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.balance-low {
+    color: #d9534f;
+    font-weight: bold;
+}
